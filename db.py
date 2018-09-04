@@ -33,13 +33,3 @@ class RedisClient:
 
     def all(self):
         return self.db.hgetall(self.name())
-
-
-# if __name__ == '__main__':
-#     r = RedisClient('cookies', 'weibo')
-#     # r.set('18244325218', 'fywy.fifa1998')
-#     # print(r.usernames())
-#     # print(r.get('18244325218'))
-#     # print(r.random())
-#     # r.delete('18244325218')
-#     print(r.all())
