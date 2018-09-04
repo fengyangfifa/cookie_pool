@@ -59,7 +59,7 @@ class WeiboCookies:
         return cookie
 
 
-w = WeiboCookies('18244325218', 'fywy.fifa1998')
+w = WeiboCookies('**********', '*********')
 w.login()
 result = w.get_cookies()
 print(result)
